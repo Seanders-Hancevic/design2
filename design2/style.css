@@ -1,0 +1,172 @@
+body {
+    height: 98vh;
+    background-color: darkgray;
+}
+.title {
+  
+    margin:auto;
+    font-style: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+   
+}
+
+main {
+  
+    margin-left: 20px;
+}
+
+.pic {
+    border-radius: 10px;
+
+}
+
+.photo {
+    
+    background-size: contain;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(6,1fr);
+    
+}
+
+.a {
+    grid-column: span 2;
+
+}
+/*Im not sure why in the mobile view my top photo isnt centered in between the two columns. I had i set up exactly right but something i did changed the position of the photo and now i can get the photo back where it needs to be. */
+
+
+
+.k {
+    display: none;
+}
+.l {
+    display: none;
+}
+.m {
+    display: none;
+}
+.n {
+    display: none;
+}
+.o {
+    display: none;
+}
+.p {
+    display: none;
+}
+.q {
+    display: none;
+}
+
+@media only screen and (min-width: 600px){
+
+.photo {
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+
+}
+.a {
+grid-column: span 1;
+position: relative;
+left:120px;
+}
+
+.b {
+    grid-column: span 1;
+    position: relative;
+    left:120px;
+ }
+
+ .c {
+    grid-column: span 1;
+    position: relative;
+    left:120px;
+ }
+
+.d {
+            grid-column: span 1;
+            position: relative;
+            left:120px;
+            }
+
+.space {
+    display: block;
+    height:150px;
+    width: 250px;
+}
+
+.k {
+    display: block;
+}
+.l {
+    display: block;
+}
+.m {
+    display: block;
+}
+.n {
+    display: block;
+}
+.o {
+    display: block;
+}
+.p {
+    display: block;
+}
+.q {
+    display: block;
+}
+
+}
+
+@media only screen and (min-width: 1000px){
+
+    .photo {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
+    }
+    .e {
+        position: relative;
+        left: 120px;
+    }
+    .space One {
+        display: none;
+    }
+    .k {
+        grid-column: span 1;
+        position: relative;
+        left:120px;
+        }
+        
+        .l {
+            grid-column: span 1;
+            position: relative;
+            left:120px;
+         }
+        
+         .m {
+            grid-column: span 1;
+            position: relative;
+            left:120px;
+         }
+        
+        .n {
+                    grid-column: span 1;
+                    position: relative;
+                    left:120px;
+                    }
+
+                    .pic {
+                        margin: auto;
+                    }
+
+}
+
+
+
